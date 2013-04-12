@@ -1,4 +1,4 @@
-# TODO: Add comment
+# TODO: Main arguments for incoming command line parameters:
 # 
 # Author: dashte
 ###############################################################################
