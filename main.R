@@ -16,7 +16,8 @@
 #!/bin/Rscript
 
 library(ape)
-setwd(path.expand("~/workspace/tSR"))
+setwd(path.expand("~/dashte/git/tSR/treeSortR/tSR")
+#setwd(path.expand("~/workspace/tSR"))
 source("sysfuncs.R")
 source("funcs.R")
 source("args.R")
