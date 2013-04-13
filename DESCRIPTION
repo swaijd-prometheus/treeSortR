@@ -1,0 +1,14 @@
+ Package: treeSortR
+     Version: 0.1
+     Date: 2013-04-14
+     Title: R package for sorting phylogenetic trees
+     Authors@R: c(person("Sana Wajid", "Developer", role = c("aut", "cre"),
+                          email = "swajid@eden.rutgers.edu"))
+     Author: Sana Wajid with editing contributions from CX
+     Maintainer: Sana Wajid <swajid@eden.rutgers.edu>
+     Depends: R (>= 1.8.0), ape
+     Description: A short (one paragraph) description of what
+       the package does and why it may be useful.
+     License: GPL (>= 2)
+     URL: http://swajid.github.io/tSR/
+     BugReports: http://swajid.github.io/tSR/
