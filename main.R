@@ -16,13 +16,16 @@
 #!/bin/Rscript
 
 library(ape)
-setwd(path.expand("~/dashte/git/tSR/treeSortR/tSR")
-#setwd(path.expand("~/workspace/tSR"))
+#change
+setwd(path.expand("~/git/tSR/treeSortR/tSR"))
+print(getwd())
+print(args)
+
 source("sysfuncs.R")
 source("funcs.R")
 source("args.R")
 source("structures/stackR.R")
-setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
+#setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
 #setwd("CYANOPHORA_BS90")
 
 args <- commandArgs(trailingOnly = TRUE)
