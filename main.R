@@ -17,16 +17,14 @@
 library(ape)
 #initial location of package and scripts
 setwd(path.expand("~/git/tSR/treeSortR/tSR"))
-print(getwd())
+
+#Maybe this is a better way to load scripts:
 source("structures/stackR.R")
 source("sysfuncs.R")
 source("funcs.R")
 source("args.R")
 
-
-setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
-
-
+#Take in arguments unless using main.R from R
 args <- commandArgs(trailingOnly = TRUE)
 if(length(args) > 0){ 
 	readParams(args)
@@ -36,8 +34,10 @@ if(length(args) > 0){
 	minBoostrapThreshold("0")
 	queryPropTT("0")
 	queryProp("0")
+	#setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
 }
 
+#remove dft objects
 if(exists("dft.all")){remove(dft.all)}
 if(exists("dft")){remove(dft)}
 

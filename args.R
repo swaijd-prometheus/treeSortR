@@ -34,7 +34,7 @@ queryProp <- function(val){
 
 targetDir <- function(loc){
 	loc <- as.character(loc)
-	makeFol(loc)
+	#makeFol(loc)
 	setwd(loc)
 }
 

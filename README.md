@@ -2,14 +2,20 @@ tSR
 ===
 Program Parameters for treeSortR
 -i target group #1
+
 -j target group #2
+
+-d directory where trees are located, must begin with ~/
+
 -e minimum boostrap threshold
+
 -f query proportion
+
 -g queryTT proportion
 
 Program use
-cd dashte/git/tSR/treeSortR/tSR
-Rscript main.R -i "Viridiplantae" -j "Stramenopiles" -e 60 -g 65 -f 80
+`cd dashte/git/tSR/treeSortR/tSR`
+`Rscript main.R -i "Viridiplantae" -j "Stramenopiles" -e 60 -g 65 -f 80`
 
 Program output: two files are created
 
