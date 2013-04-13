@@ -1,17 +1,18 @@
 tSR
 ===
-Program Parameters for treeSortR
--i target group #1
+The following parameters exist for treeSortR
 
--j target group #2
+`-i` target group #1
 
--d directory where trees are located, must begin with ~/
+`-j` target group #2
 
--e minimum boostrap threshold
+`-d` directory where trees are located, must begin with ~/
 
--f query proportion
+`-e` minimum boostrap threshold
 
--g queryTT proportion
+`-f` query proportion
+
+`-g` queryTT proportion
 
 Program use
 `cd dashte/git/tSR/treeSortR/tSR`
