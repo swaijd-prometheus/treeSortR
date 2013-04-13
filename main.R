@@ -14,19 +14,18 @@
 ###################################################################################
 
 #!/bin/Rscript
-
 library(ape)
-#change
+#initial location of package and scripts
 setwd(path.expand("~/git/tSR/treeSortR/tSR"))
 print(getwd())
-print(args)
-
+source("structures/stackR.R")
 source("sysfuncs.R")
 source("funcs.R")
 source("args.R")
-source("structures/stackR.R")
-#setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
-#setwd("CYANOPHORA_BS90")
+
+
+setwd(path.expand("~/Documents/DBLab/treeSortR")) #/CYANOPHORA_BS90"))	# SET WORKING DIR
+
 
 args <- commandArgs(trailingOnly = TRUE)
 if(length(args) > 0){ 
