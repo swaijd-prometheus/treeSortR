@@ -1,16 +1,19 @@
 # TODO: Main arguments for incoming command line parameters:
 # 
-# Author: dashte
+# Author: sana wajid
 ###############################################################################
 
+# target group A
 tgrps1 <- function(taxA){
 	targrp1 <<- as.character(taxA)
 }
 
+# target group B
 tgrps2 <- function(taxB){
 	targrp2 <<- as.character(taxB)
 }
 
+# minimum bootstrap to filter
 minBoostrapThreshold <- function(val){
 	val <- as.numeric(val)
 	if(val >= 0 && val <= 100){
@@ -18,6 +21,7 @@ minBoostrapThreshold <- function(val){
 	}
 }
 
+# query proportion of target tree
 queryPropTT <- function(val){
 	val <- as.numeric(val)
 	if(val >= 0 && val <= 100){
