@@ -1,6 +1,6 @@
 tSR
 ===
-###The following parameters exist for treeSortR
+### The following parameters exist for treeSortR
 
 `-i` target group #1
 
@@ -14,17 +14,17 @@ tSR
 
 `-g` queryTT proportion
 
-###Program use
+### Program use
 
 `cd dashte/git/tSR/treeSortR/tSR`
 `Rscript main.R -i "Viridiplantae" -j "Amoebozoa" -e 60 -g 65 -f 80 -d "~/Documents/DBLab/treeSortR"`
 
-###Program output: two files are created
-
+### Program output: two files are created
+```
 tSR_dftViridiplantae-Amoebozoa_2013Mar.15.151226.csv
 tSR_Viridiplantae-Amoebozoa_2013Mar.15.151228.csv
-
-###Authors
+```
+### Authors
 Sana Wajid [1], Developer
 
 Cheong Xin Chan [2], Debashish Bhattacharya [1] , Advisors
